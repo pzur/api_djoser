@@ -1,0 +1,22 @@
+primero se debe saber el numero en /all-profiles/
+
+auth/users/ : (POST)se crea el usuario, correo, password
+	      (GET) se puede ver al usario ingresado
+
+auth/users/me/ : (GET)se puede ver al usuario
+		 (PUT) se cambia la informacion del usuario
+
+serviciostablas/login/ : (POST)se obtiene el token
+			 se agrega el token en el headers
+
+serviciostablas/all-profiles/: (POST) se ingresa la información del user a paseador(tabla relacionada)
+				
+				(GET) se llama a toda la lista del paseador(tabla relacionada)
+
+serviciostablas/profile/2 : (GET) se llama a la información del paseador en especifico
+			    (PUT) se actualiza la información de la tabla
+
+
+SI SE INGRESA CON SUPERUSUARIO SE PUEDE VER LO SIGUIENTE
+
+auth/users/ : (GET) se puede ver todos los usuarios
